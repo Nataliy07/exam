@@ -17,11 +17,22 @@
   src: url("fonts/Gotham Medium Regular/Gotham Medium Regular.ttf");
 }
 
-#s1 {
+section {
   height: 100%;
-  min-height: 800px;
   min-width: 1600px;
   position: relative;
+}
+
+.inner1,
+.inner2,
+.inner3,
+.inner4 {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+#s1 {
+  min-height: 800px;
   background-image: url(img/section1.png);
 }
 
@@ -32,8 +43,6 @@
 }
 
 #s1 header .inner1 {
-  width: 1170px;
-  margin: 0 auto;
   padding-top: 52px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -253,16 +262,11 @@
 }
 
 #s2 {
-  height: 100%;
   min-height: 1630px;
-  min-width: 1600px;
-  position: relative;
 }
 
 #s2 .inner2 {
-  width: 1170px;
   height: 1632px;
-  margin: 0 auto;
   padding-top: 80px;
   text-align: center;
 }
@@ -403,18 +407,13 @@
 }
 
 #s3 {
-  height: 100%;
   min-height: 1035px;
-  min-width: 1600px;
-  position: relative;
   background-image: url(img/section3.png);
   background-repeat: no-repeat;
 }
 
 #s3 .inner3 {
-  width: 1170px;
   height: 1035px;
-  margin: 0 auto;
   padding-top: 120px;
   text-align: center;
 }
@@ -510,16 +509,11 @@
 }
 
 #s4 {
-  height: 100%;
   min-height: 1000px;
-  min-width: 1600px;
-  position: relative;
 }
 
 #s4 .inner4 {
-  width: 1170px;
   height: 1000px;
-  margin: 0 auto;
   padding-top: 10px;
   text-align: center;
 }
@@ -605,10 +599,7 @@
 }
 
 #s5 {
-  height: 100%;
   min-height: 700px;
-  min-width: 1600px;
-  position: relative;
 }
 
 #s5 #map {
